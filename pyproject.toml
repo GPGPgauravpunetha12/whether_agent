@@ -1,0 +1,12 @@
+[project]
+name = "weatherwise-ai"
+version = "1.0.0"
+description = "An intelligent weather assistant powered by AI agents with tool-calling capabilities"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "strands-agents>=1.38.0",
+    "strands-agents-tools>=0.5.2",
+    "python-dotenv>=1.2.2",
+    "litellm>=1.83.0"
+]
