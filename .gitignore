@@ -31,3 +31,7 @@ Thumbs.db
 # Test files
 test_*.py
 debug_*.py
+
+# Session data (temporary conversation history)
+tmp/
+sessions/
